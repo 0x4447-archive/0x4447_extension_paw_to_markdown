@@ -1,2 +1,24 @@
-# paw_to_markdown_documentation
-Convert the API structure from Paw and make a Markdown document out of it
+# POST - /fax/send
+
+Description: This endpoint is responsabile for sendign faxes to the provided To Nr.
+
+### Body
+
+```
+[object Object]
+```
+
+
+
+# GET - /fax/get
+
+Description: N/A
+
+### Body
+
+```
+
+```
+
+
+
