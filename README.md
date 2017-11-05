@@ -18,7 +18,7 @@
 
 ## GET - /fax/get
 
-Description: N/A
+**Description**: N/A
 
 #### Header
 
