@@ -2,7 +2,7 @@
 
 Description: This endpoint is responsabile for sendign faxes to the provided To Nr.
 
-#### Body
+### Body
 
 ```
 [object Object]
@@ -10,7 +10,7 @@ Description: This endpoint is responsabile for sendign faxes to the provided To 
 
 
 
-### GET - /fax/get
+## GET - /fax/get
 
 Description: N/A
 
