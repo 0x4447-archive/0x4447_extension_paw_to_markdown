@@ -1,8 +1,14 @@
 ## POST - /fax/send
 
-Description: This endpoint is responsabile for sendign faxes to the provided To Nr.
+**Description**: This endpoint is responsabile for sendign faxes to the provided To Nr.
 
-### Body
+#### Header
+
+```
+[object Object]
+```
+
+#### Body
 
 ```
 [object Object]
@@ -14,10 +20,18 @@ Description: This endpoint is responsabile for sendign faxes to the provided To 
 
 Description: N/A
 
+#### Header
+
+```
+[object Object]
+```
+
 #### Body
 
 ```
+{
 
+}
 ```
 
 
