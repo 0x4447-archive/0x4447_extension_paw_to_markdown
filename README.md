@@ -10,7 +10,7 @@ Useful links to work with the Paw API:
 
 # The End
 
-We don't know everything, but what we do know, we know how to explain! 😄 If you've enjoyed this project, please consider giving it a 🌟.
+We don't know everything, but what we do know, we know how to explain and make! 😄 If you've enjoyed this project, please consider giving it a 🌟.
 
 - [![Star on GitHub](https://img.shields.io/github/stars/0x4447/0x4447-extension-paw-to-markdown.svg?style=social)](https://github.com/0x4447/0x4447-extension-paw-to-markdown/stargazers)
 - [![Watch on GitHub](https://img.shields.io/github/watchers/0x4447/0x4447-extension-paw-to-markdown.svg?style=social)](https://github.com/0x4447/0x4447-extension-paw-to-markdown/watchers)
