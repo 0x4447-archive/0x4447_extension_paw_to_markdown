@@ -1,26 +1,9 @@
-## POST - https://twilio.com/fax/send
+# Export API to Markdown
 
-**Description**: This endpoint is responsabile for sendign faxes to the provided To Nr.
+Yet another API exporter for Paw that generates a Markdown file the way we like it. While still being a work in progress since we keep on fine tuning it to generate the best Markdown possible.
 
-#### Header
-```
-{	name: ble ble
-	Content-Type: application/json; charset=utf-8
-}
-```
-#### Body
-```
-[object Object]
-```
+# Paw Link
 
+Useful links to work with the Paw API:
 
-## GET - https://twilio.com/fax/get
-
-**Description**: N/A
-
-#### Header
-```
-{}
-```
-
-
+- https://paw.cloud/docs/reference/Request
