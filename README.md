@@ -15,7 +15,7 @@ We don't know everything, but what we do know, we know how to explain and make! 
 - [![Star on GitHub](https://img.shields.io/github/stars/0x4447/0x4447-extension-paw-to-markdown.svg?style=social)](https://github.com/0x4447/0x4447-extension-paw-to-markdown/stargazers)
 - [![Watch on GitHub](https://img.shields.io/github/watchers/0x4447/0x4447-extension-paw-to-markdown.svg?style=social)](https://github.com/0x4447/0x4447-extension-paw-to-markdown/watchers)
 
-And check out [GitHub account](https://github.com/0x4447), where we have other projects that you might find interesting.
+And check out our [GitHub account](https://github.com/0x4447), where we have other projects that you might find interesting.
 
 ## For Hire 👨‍💻
 
