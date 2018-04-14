@@ -10,17 +10,8 @@ Useful links to work with the Paw API:
 
 # The End
 
-We don't know everything, but what we do know, we know how to explain and make! 😄 If you've enjoyed this project, please consider giving it a 🌟.
+If you enjoyed this article/project, please consider giving it a 🌟. And check out our [0x4447 GitHub account](https://github.com/0x4447), where we have additional articles and tools that you might find interesting.
 
-- [![Star on GitHub](https://img.shields.io/github/stars/0x4447/0x4447-extension-paw-to-markdown.svg?style=social)](https://github.com/0x4447/0x4447-extension-paw-to-markdown/stargazers)
-- [![Watch on GitHub](https://img.shields.io/github/watchers/0x4447/0x4447-extension-paw-to-markdown.svg?style=social)](https://github.com/0x4447/0x4447-extension-paw-to-markdown/watchers)
+# For Hire 👨‍💻 👩‍💻
 
-And check out our [GitHub account](https://github.com/0x4447), where we have other projects that you might find interesting.
-
-## For Hire 👨‍💻
-
-If you'd like us to help you, we are available for hire. Contact us at hello@0x4447.com, and let us know whats on your 🧠.
-
-## Find out more
-
-If you want to find out more about us, check our home page at https://0x4447.com.
+If you'd like us to help you with something, please feel free to say hello@0x4447.com, and share what's on your mind. We'll take a look, and try our best to help you. Or visit our website at: [0x4447.com](https://0x4447.com).
