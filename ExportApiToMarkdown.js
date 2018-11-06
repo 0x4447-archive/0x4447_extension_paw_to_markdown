@@ -3,6 +3,25 @@
 //
 let ExportApiToMarkdown = function()
 {
+	function warpJSONCode(code) {
+		return `
+		\n\`\`\`JSON
+		${code}
+		\n\`\`\`
+		`
+	}
+	function responseSectionFromExhange(responseExchange) {
+		let headers = responseExchange.responseHeaders;
+		let body = responseExchange.responseBody;
+		let str = `### Response
+		\n####Header
+		${warpJSONCode(JSON.stringify(headers))}
+		\n####Body
+		${warpJSONCode(body)}
+		`
+		return str
+	}
+
 	this.generate = function(context, requests, options)
 	{
 		//
@@ -130,8 +149,12 @@ let ExportApiToMarkdown = function()
 			section.push('\n');
 			section.push("```");
 
+			// 13. Generate Sample Response If exist
 			section.push('\n\n');
-
+			let responseExchange = context.getCurrentRequest().getLastExchange();
+			if (responseExchange) {
+				section.push(responseSectionFromExhange(responseExchange));
+			}
 			//
 			//	Convert the array with all the data in to a single string
 			//	which will become out .md file.
