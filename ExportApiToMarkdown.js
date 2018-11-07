@@ -151,8 +151,9 @@ let ExportApiToMarkdown = function()
 
 			// 13. Generate Sample Response If exist
 			section.push('\n\n');
-			let responseExchange = context.getCurrentRequest().getLastExchange();
-			if (responseExchange) {
+			let latestRequest = context.getCurrentRequest()
+			if (!!latestRequest && !!latestRequest.getLastExchange()) {
+				let responseExchange = latestRequest.getLastExchange();
 				section.push(responseSectionFromExhange(responseExchange));
 			}
 			//
