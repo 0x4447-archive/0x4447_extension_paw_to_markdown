@@ -156,6 +156,9 @@ let ExportApiToMarkdown = function()
 				let responseExchange = latestRequest.getLastExchange();
 				section.push(responseSectionFromExhange(responseExchange));
 			}
+
+			sectino.push('\n---\n');
+
 			//
 			//	Convert the array with all the data in to a single string
 			//	which will become out .md file.
