@@ -3,6 +3,25 @@
 //
 let ExportApiToMarkdown = function()
 {
+	function warpJSONCode(code) {
+		return `
+		\n\`\`\`JSON
+		${code}
+		\n\`\`\`
+		`
+	}
+	function responseSectionFromExhange(responseExchange) {
+		let headers = responseExchange.responseHeaders;
+		let body = responseExchange.responseBody;
+		let str = `### Response
+		\n####Header
+		${warpJSONCode(JSON.stringify(headers))}
+		\n####Body
+		${warpJSONCode(body)}
+		`
+		return str
+	}
+
 	this.generate = function(context, requests, options)
 	{
 		//
@@ -130,7 +149,15 @@ let ExportApiToMarkdown = function()
 			section.push('\n');
 			section.push("```");
 
+			// 13. Generate Sample Response If exist
 			section.push('\n\n');
+			let latestRequest = context.getCurrentRequest()
+			if (!!latestRequest && !!latestRequest.getLastExchange()) {
+				let responseExchange = latestRequest.getLastExchange();
+				section.push(responseSectionFromExhange(responseExchange));
+			}
+
+			sectino.push('\n---\n');
 
 			//
 			//	Convert the array with all the data in to a single string
